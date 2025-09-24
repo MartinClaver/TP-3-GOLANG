@@ -1,0 +1,44 @@
+[
+  {
+    "LogId": "corrupted-log",
+    "LogPath": "test_logs/corrupted.log",
+    "Status": "OK",
+    "Message": "",
+    "ErrorDetails": ""
+  },
+  {
+    "LogId": "web-server-1",
+    "LogPath": "test_logs/access.log",
+    "Status": "OK",
+    "Message": "",
+    "ErrorDetails": ""
+  },
+  {
+    "LogId": "empty-log",
+    "LogPath": "test_logs/empty.log",
+    "Status": "OK",
+    "Message": "",
+    "ErrorDetails": ""
+  },
+  {
+    "LogId": "app-backend-2",
+    "LogPath": "test_logs/errors.log",
+    "Status": "OK",
+    "Message": "",
+    "ErrorDetails": ""
+  },
+  {
+    "LogId": "invalid-path",
+    "LogPath": "/non/existent/log.log",
+    "Status": "FAILED",
+    "Message": "",
+    "ErrorDetails": ""
+  },
+  {
+    "LogId": "db-server-3",
+    "LogPath": "test_logs/mysql_error.log",
+    "Status": "FAILED",
+    "Message": "",
+    "ErrorDetails": ""
+  }
+]
