@@ -15,6 +15,6 @@ Outil CLI en Go pour **analyser des fichiers de logs en parallèle**, avec gesti
 
 ## Utilisation
 go run . analyze --config sample/config.json --output report.json
-# ou
+## ou
 go build -o loganalyzer
 ./loganalyzer analyze -c sample/config.json -o report.json
